@@ -202,3 +202,7 @@ hr {
 .card-bag {
     padding: 10px;
 }
+
+section {
+    margin-inline: unset !important;
+}
