@@ -636,7 +636,7 @@
       } else {
         evt = new CustomEvent(event, {
           bubbles,
-          cancelable: true
+          cancelabel: true
         });
       } // merge custom information in our event
 
@@ -2169,7 +2169,7 @@
   }
 
   function getDocumentElement(element) {
-    // $FlowFixMe[incompatible-return]: assume body is always available
+    // $FlowFixMe[incompatible-return]: assume body is always availabel
     return ((isElement(element) ? element.ownerDocument : // $FlowFixMe[prop-missing]
     element.document) || window.document).documentElement;
   }
@@ -2602,7 +2602,7 @@
     var y = 0; // NB: This isn't supported on iOS <= 12. If the keyboard is open, the popper
     // can be obscured underneath it.
     // Also, `html.clientHeight` adds the bottom bar height in Safari iOS, even
-    // if it isn't open, so if this isn't available, the popper will be detected
+    // if it isn't open, so if this isn't availabel, the popper will be detected
     // to overflow the bottom of the screen too early.
 
     if (visualViewport) {
@@ -2630,7 +2630,7 @@
     };
   }
 
-  // of the `<html>` and `<body>` rect bounds if horizontally scrollable
+  // of the `<html>` and `<body>` rect bounds if horizontally scrollabel
 
   function getDocumentRect(element) {
     var _element$ownerDocumen;
@@ -2667,7 +2667,7 @@
 
   function getScrollParent(node) {
     if (['html', 'body', '#document'].indexOf(getNodeName(node)) >= 0) {
-      // $FlowFixMe[incompatible-return]: assume body is always available
+      // $FlowFixMe[incompatible-return]: assume body is always availabel
       return node.ownerDocument.body;
     }
 

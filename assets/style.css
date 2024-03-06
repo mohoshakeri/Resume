@@ -180,7 +180,7 @@ hr {
     margin-bottom: 1rem;
 }
 
-.lable {
+.label {
     background-color: #686868;
     width: auto;
     display: inline-block;
@@ -189,6 +189,26 @@ hr {
     padding-inline: 12px;
     font-size: 15px;
     margin: unset;
+}
+
+.label-gold {
+    background-color: #fffb22;
+    color: #000;
+}
+
+.label-silver {
+    background-color: #8b8b8b;
+    color: #000;
+}
+
+.label-red {
+    background-color: #580000;
+    color: #c6c8ff;
+}
+
+th,
+td {
+    color: #fff;
 }
 
 .area {
@@ -205,4 +225,10 @@ hr {
 
 section {
     margin-inline: unset !important;
+}
+
+.mxh-500 {
+    height: 500px;
+    width: auto !important;
+    margin-inline: 20%;
 }
