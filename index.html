@@ -1,437 +1,330 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en,fa">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#777dff">
-    <title>محمدحسین شاکری - توسعه دهنده</title>
+    <meta name="theme-color" content="#fff">
+    <title>محمدحسین شاکری - توسعه دهنده پایتون و جنگو</title>
     <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap5/css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="assets/plugins/bootstrap-icons/bootstrap-icons.css">
-    <!-- main -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- programming icons -->
-    <link rel="stylesheet" href="assets/plugins/devicon/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+
+    <style>
+        @font-face {
+            font-family: Shabnam;
+            src: url(fonts/Shabnam.woff);
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url(fonts/Montserrat.woff);
+        }
+
+        :root {
+            --main-color: #000;
+            --main-color-o: #1D1D1DFF;
+        }
+
+        body {
+            font-family: Montserrat;
+            background-color: #C6C6C6FF;
+            color: #000;
+            padding-bottom: 20px;
+        }
+
+        a {
+            text-decoration: unset;
+        }
+
+        .card {
+            border: 4px solid transparent !important;
+            border-radius: 10px;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .text-right {
+            text-align: right !important;
+        }
+
+        .cen-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cen-col {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cen-row.stretch, .cen-col.stretch {
+          align-items: stretch;
+        }
+
+        .color-1 {
+            color: var(--main-color) !important;
+        }
+        
+        .color-2 {
+            color: var(--main-color-o) !important;
+        }
+
+        .fa-text {
+            font-family: Shabnam;
+        }
+
+        .btn-box {
+            box-shadow: inset 0px 0px 14px -8px rgb(130, 130, 130);
+        }
+
+        .btn-box > .icon {
+            font-size: calc(50px + 2vw);
+            color: var(--color-main);
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        section {
+            margin-inline: unset !important;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container mt-5">
-        <div class="row">
-            <!-- INFORMATION -->
-            <section class="col-12 cdir">
-                <div class="card">
-                    <div class="card-body">
-                        <h1>محمد حسین شاکری</h1>
-                        <h4 class="desc">توسعه دهنده Backend</h4>
-                        <div class="information">
-                            <p>دانشجوی سال سوم مهندسی کامپیوتر با سابقه ۲ سال کار در حوزه جنگو و پایتون</p>
-                            <h6 class="en-text cflex ocolor"><i
-                                    class="icon bi bi-envelope-at-fill"></i>mohoshakeri@yahoo.com</h6>
-                            <div class="btn-row">
-                                <button link="https://github.com/mohoshakeri" target="blank"
-                                    class="btn en-text link-button mb-2"><i
-                                        class="btn-icon bi bi-github"></i>Github</button>
-                                <button link="https://linkedin.com/in/mohammadhosseinshakeri" target="blank"
-                                    class="btn en-text link-button mb-2"><i
-                                        class="btn-icon bi bi-linkedin"></i>Linkedin</button>
-                                <button link="assets/resume.pdf" target="blank" download="محمدحسین.شاکری.رزومه.pdf"
-                                    class="btn link-button mb-2"><i class="btn-icon bi bi-file-pdf-fill"></i>دانلود
-                                    رزومه</button>
-                            </div>
-                            <hr class="card-hr">
-                            <h4>مهارت‌ها</h4>
-                            <br>
-                            <!-- <div>
-                                <i class="m-1 icon devicon devicon-python-plain colored"></i>
-                                <i class="m-1 icon devicon devicon-django-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-docker-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-redis-plain-wordmark colored"></i>
-                                <img class="png-icon" src="assets/img/api-icon.png">
-                                <i class="m-1 icon devicon devicon-mysql-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-mongodb-plain-wordmark colored"></i>
-                                <div class="mt-3"></div>
-                                <i class="m-1 icon devicon devicon-html5-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-css3-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-javascript-plain colored"></i>
-                                <i class="m-1 icon devicon devicon-bootstrap-plain colored"></i>
-                                <i class="m-1 icon devicon devicon-jquery-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-vuejs-plain-wordmark colored"></i>
-                                <div class="mt-3"></div>
-                                <i class="m-1 icon devicon devicon-git-plain colored"></i>
-                                <i class="m-1 icon devicon devicon-github-original-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-ubuntu-plain-wordmark colored"></i>
-                                <i class="m-1 icon devicon devicon-vscode-plain colored"></i>
-                                <i class="m-1 icon devicon devicon-trello-plain colored"></i>
-                            </div> -->
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>سطح تسلط</th>
-                                        <th>مهارت مربوطه</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row" class="align-middle">تسلط کامل</td>
-                                        <td dir="ltr">
-                                            <span class="label label-gold m-1">Python</span>
-                                            <span class="label label-gold m-1">Django</span>
-                                            <span class="label label-gold m-1">Class Base View</span>
-                                            <span class="label label-gold m-1">Django REST Framwork</span>
-                                            <span class="label label-gold m-1">SQL DB</span>
-                                            <span class="label label-gold m-1">HTML5</span>
-                                            <span class="label label-gold m-1">Ubuntu</span>
-                                            <span class="label label-gold m-1">Deploy Methods</span>
-                                            <span class="label label-gold m-1">Git | Github</span>
-                                            <span class="label label-gold m-1">PWA Apps</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row" class="align-middle">تسلط نسبی</td>
-                                        <td dir="ltr">
-                                            <span class="label label-silver m-1">JavaScript</span>
-                                            <span class="label label-silver m-1">CSS</span>
-                                            <span class="label label-silver m-1">Bootstrap5</span>
-                                            <span class="label label-silver m-1">VueJS</span>
-                                            <span class="label label-silver m-1">Linux System</span>
-                                            <span class="label label-silver m-1">زبان انگلیسی</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row" class="align-middle">عدم تسلط (فعلا!)</td>
-                                        <td dir="ltr">
-                                            <span class="label label-red m-1">Docker</span>
-                                            <span class="label label-red m-1">Celery</span>
-                                            <span class="label label-red m-1">No SQL DB</span>
-                                            <span class="label label-red m-1">Django Tests</span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <!-- Projects -->
-            <section class="col-12 cdir row">
-                <h1 class="title">پروژه‌های تجاری</h1>
-                <div class="card-bag col-12 col-lg-6">
-                    <div id="ProjBrainTest2" class="card">
-                        <div class="card-body">
-                            <div id="BrainTest2Slider" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="2"
-                                        aria-label="Slide 3"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="3"
-                                        aria-label="Slide 4"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="4"
-                                        aria-label="Slide 5"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="5"
-                                        aria-label="Slide 6"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="6"
-                                        aria-label="Slide 7"></button>
-                                    <button type="button" data-bs-target="#BrainTest2Slider" data-bs-slide-to="7"
-                                        aria-label="Slide 8"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-01.png" class="d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-02.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-03.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-04.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-05.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-06.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-07.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BrainTest2Example-08.png" class=" d-block w-100">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#BrainTest2Slider"
-                                    data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#BrainTest2Slider"
-                                    data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                            <h3 class="en-text">Braintest</h3>
-                            <p class="label">نقش: Fullstack Developer</p>
-                            <br>
-                            <br>
-                            <p class="area">سامانه‌ای که آزمون‌های معتبر روانسنجی را به صورت آنلاین برگزار میکند و امکان
-                                ارتباط میان مراجعان و متخصصان را فراهم میکند. این سامانه در بک‌اند با Django و فرانت با
-                                بوت‌استرپ و Vue3 نوشته شده است.</p>
-                            <div class="btn-row">
-                                <button link="http://braintest.ir" target="blank" class="btn en-text link-button"><i
-                                        class="btn-icon bi bi-globe-americas"></i>Website</button>
-                            </div>
-                            <hr class="card-hr">
-                            <h4>ویژگی‌ها و چالش‌ها :</h4>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>احراز هویت دو
-                                حالته
-                                (سازمانی و کاربری)</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>اتصال به درگاه
-                                پرداخت</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>ارسال پیامک‌های
-                                تراکنشی</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>نوشتن API برای
-                                انجام آزمون با اندروید
-                            </h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>ارائه خروجی
-                                اکسل</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>تحلیل‌های آماری
-                            </h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>کار با
-                                نمودارهای
-                                ChartJs و ApexCharts</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>همگام سازی
-                                کاربران
-                                و کلینیک‌ها</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>فراهم سازی سئو
-                                تکنیکال</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>بهینه بودن
-                                مدل‌ها و روابط مدل‌ها</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>بهینه بودن UX
-                                سایت</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>بهینه بودن متود
-                                پرداخت و Product Management
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-bag col-12 col-lg-6">
-                    <div id="ProjBafdooz" class="card">
-                        <div class="card-body">
-                            <div id="BafdoozSlider" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#BafdoozSlider" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#BafdoozSlider" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#BafdoozSlider" data-bs-slide-to="2"
-                                        aria-label="Slide 3"></button>
-                                    <button type="button" data-bs-target="#BafdoozSlider" data-bs-slide-to="3"
-                                        aria-label="Slide 4"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="3000">
-                                        <img src="assets/img/BafdoozExample-01.png" class="d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BafdoozExample-02.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BafdoozExample-03.png" class=" d-block w-100">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/BafdoozExample-04.png" class=" d-block w-100">
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#BafdoozSlider"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#BafdoozSlider"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                            <h3 class="en-text">Bafdooz</h3>
-                            <p class="label">نقش: Fullstack Developer</p>
-                            <br>
-                            <br>
-                            <p class="area">سایت فروش دوره‌های آموزشی خیاطی و بافتنی که در فرانت از Css,JS ساده و در
-                                بک‌اند از Django استفاده شده است.
-                                <br>
-                                این سایت فعلا از دسترس خارج است.
-                            </p>
-                            <hr class="card-hr">
-                            <h4>ویژگی‌ها و چالش‌ها :</h4>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>ارسال پیامک‌های
-                                تراکنشی</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>قفل کردن دو
-                                طرفه و محافظت از ویدیوها با PHP (در سمت دیسک دانلود) و DRF (در سمت سرور)</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>فراهم سازی سئو
-                                تکنیکال</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>بهینه بودن UX
-                                سایت</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-bag col-12 col-lg-6">
-                    <div id="ProjTimido" class="card">
-                        <div class="card-body">
-                            <div id="TimidoSlider" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="0"
-                                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="1"
-                                        aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="2"
-                                        aria-label="Slide 3"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="3"
-                                        aria-label="Slide 4"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="4"
-                                        aria-label="Slide 5"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="5"
-                                        aria-label="Slide 6"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="6"
-                                        aria-label="Slide 7"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="7"
-                                        aria-label="Slide 8"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="8"
-                                        aria-label="Slide 9"></button>
-                                    <button type="button" data-bs-target="#TimidoSlider" data-bs-slide-to="9"
-                                        aria-label="Slide 10"></button>
+<div class="container my-3 my-md-5">
+    <div class="cen-row w-100">
 
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-01.png" class="d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-02.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-03.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-04.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-05.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-06.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-07.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-08.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-09.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3000">
-                                        <img src="assets/img/TimidoExample-10.png" class=" d-block w-100 mxh-500">
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#TimidoSlider"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#TimidoSlider"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                            <h3 class="en-text">Timido</h3>
-                            <p class="label">نقش: Fullstack Developer</p>
-                            <br>
-                            <br>
-                            <p class="area">یک وب‌اپلیکیشن مخصوص مدیریت زمان که با معماری REST نوشته شده بود. در فرانت
-                                از
-                                PWA با استفاده از VueJs3 و در بک‌اند تماما از DRF استفاده شده بود. <br>این اپ در بازار و
-                                مایکت
-                                هم حضور داشت که پس از مدتی به دلیل هزینه‌ها و رایگان بودن اپ معلق گردید.</p>
-                            <hr class="card-hr">
-                            <h4>ویژگی‌ها و چالش‌ها :</h4>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>احراز هویت با
-                                JWT
-                            </h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>محاسبات آماری
-                                جهت
-                                بررسی و مدیریت زمان</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>بهینه سازی
-                                فرآیند
-                                ذخیره اطلاعات</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>تولید برنامه
-                                هفتگی
-                                در بک اند و دریافت و نمایش آن در فرانت</h6>
-                            <h6 class="cflex area cdir"><i class="text-icon bi bi-arrow-return-left"></i>کار با
-                                نمودارهای
-                                آماری
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <section class="col-12 cdir row">
-                <h1 class="title">سایر فعالیت‌ها</h1>
-                <div class="card-bag col-12 col-lg-6">
-                    <div id="MiniProjExcelC" class="card">
-                        <div class="card-body">
-                            <h3 class="en-text">Excel Class</h3>
-                            <p class="area">یک کلاس پایتون که میشود با آن روی اکسل دیتا ست کرد یا آن را بازخوانی کرد.
-                            </p>
-                            <div class="btn-row">
-                                <button link="https://github.com/mohoshakeri/ExcelByPython" target="blank"
-                                    class="btn en-text link-button"><i class="btn-icon bi bi-github"></i>Source</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-bag col-12 col-lg-6">
-                    <div id="MiniProjDatabaseC" class="card">
-                        <div class="card-body">
-                            <h3 class="en-text">DataBase Class</h3>
-                            <p class="area">یک کلاس پایتون که توانایی انجام عملیات CRUD بر روی دو دیتابیس MySQL و
-                                PostgreSQL
-                                را دارد.</p>
-                            <div class="btn-row">
-                                <button link="https://github.com/mohoshakeri/DataBase" target="blank"
-                                    class="btn en-text link-button"><i class="btn-icon bi bi-github"></i>Source</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-bag col-12 col-lg-6">
-                    <div id="MiniProjExcelC" class="card">
-                        <div class="card-body">
-                            <h3 class="en-text">Data Extraction</h3>
-                            <p class="area">
-                                مجموعه کدی که دیتای خاص یک سایت را استخراج و به صورت فایل اکسل ذخیره می‌نمود
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <!-- INFORMATION -->
+        <section class="card col-12 text-center">
+            <div class="card-body cen-col w-100">
 
-        </div>
+                <h1>Hossein Shakeri</h1>
+                <h2 class="color-2 my-3 ">Python/Django Developer</h2>
+                <img src="assets/img/icon.png" alt="Hossein Shakeri" class="w-100 rounded-3" style="max-width: 200px;">
+                <div class="cen-row stretch w-100">
+                    <button type="button"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-python-plain"></i>
+                    </button>
+                </div>
+
+                <hr class="my-3 w-100">
+
+                <h3>Social</h3>
+                <div class="cen-row stretch w-100">
+                    <a href="https://github.com/mohoshakeri" role="button" target="blank"
+                       class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-github-original-wordmark"></i>
+                    </a>
+                    <a href="https://t.me/mohoshakeri" role="button" target="blank"
+                       class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon bi bi-telegram"></i>
+                    </a>
+                    <a href="mailto:mohoshakeri@yahoo.com" target="_blank" role="button"
+                       class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon bi bi-envelope-at-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohammadhosseinshakeri/" target="_blank" role="button"
+                       class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-linkedin-plain"></i>
+                    </a>
+                </div>
+
+                <hr class="my-3 w-100">
+
+                <h3>Skills</h3>
+
+                <h4 class="mt-5">Web Development</h4>
+                <div class="cen-row stretch w-100">
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Django"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-django-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="DRF"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-djangorest-plain"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Flask"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-flask-original-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Fast API"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-fastapi-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GraphSQL"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-graphql-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="SocketIO"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-socketio-original-wordmark"></i>
+                    </button>
+                </div>
+
+                <h4 class="mt-5">Data Management</h4>
+                <div class="cen-row stretch w-100">
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="PostgreSQL"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-postgresql-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="MySQL"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-mysql-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Redis"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-redis-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="MongoDB"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-mongodb-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Elastic Search"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-elasticsearch-plain-wordmark"></i>
+                    </button>
+                </div>
+
+                <h4 class="mt-5">OS & Tools</h4>
+                <div class="cen-row stretch w-100">
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Linux"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-linux-plain"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Docker"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-docker-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Nginx"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-nginx-original"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Raspberrypi"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-raspberrypi-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bash"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-bash-plain"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Git"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-git-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Postman"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-postman-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Jupyter"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-jupyter-plain-wordmark"></i>
+                    </button>
+                </div>
+
+                <h4 class="mt-5">Client</h4>
+                <div class="cen-row stretch w-100">
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="HTML"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-html5-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="CSS"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-css3-plain-wordmark"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bootstrap 5"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-bootstrap-plain"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="PyQT"
+                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">
+                        <i class="icon my-3 devicon-qt-original"></i>
+                    </button>
+                </div>
+
+<!--                <h4 class="mt-5">AI</h4>-->
+<!--                <div class="cen-row stretch w-100">-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Matplotlib"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-matplotlib-plain-wordmark"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Numpy"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-numpy-plain-wordmark"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Pandas"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-pandas-plain-wordmark"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Scikit Learn"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-scikitlearn-plain"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Pytorch"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-pytorch-plain-wordmark"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tensorflow"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-tensorflow-original-wordmark"></i>-->
+<!--                    </button>-->
+<!--                </div>-->
+
+<!--                <h4 class="mt-5">Game Development</h4>-->
+<!--                <div class="cen-row stretch w-100">-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="C"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-c-plain"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="C++"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-cplusplus-plain"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="C#"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-csharp-plain"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Unity"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-unity-plain-wordmark"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="3D Max"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-threedsmax-plain"></i>-->
+<!--                    </button>-->
+<!--                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Photoshop"-->
+<!--                            class="btn btn-light btn-box cen-col col-4 col-md-3 col-lg-2 m-2">-->
+<!--                        <i class="icon my-3 devicon-photoshop-plain"></i>-->
+<!--                    </button>-->
+<!--                </div>-->
+            </div>
+        </section>
     </div>
-    <!-- Scripts -->
-    <script src="assets/plugins/bootstrap5/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/main.js"></script>
+</div>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
 </body>
 
 </html>
